@@ -1,5 +1,5 @@
 {
-    "name": "m1ke/uploader",
+    "name": "easy-uploader",
     "author": {
         "name": "Mike Lehan",
         "url": "https://github.com/M1ke"
@@ -13,9 +13,9 @@
     "dependencies": {
         "jquery": "/home/m1ke/web/lib/js/jquery/.git",
         "uploadify": "/home/m1ke/web/lib/js/uploadify/.git",
-        "m1ke/utils": "/home/m1ke/web/lib/js/utils/.git",
-        "m1ke/utils-jq": "/home/m1ke/web/lib/js/utils-jq/.git",
-        "adobe/flash": "/home/m1ke/web/lib/js/adobe-flash/.git"
+        "m1ke-utils": "/home/m1ke/web/lib/js/utils/.git",
+        "m1ke-utils-jq": "/home/m1ke/web/lib/js/utils-jq/.git",
+        "adobe-flash": "/home/m1ke/web/lib/js/adobe-flash/.git"
     },
     "description": "Easy overlay",
     "files": [
