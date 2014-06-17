@@ -1,6 +1,6 @@
 /*> ../adobe-flash/flash.js */
-/*> ../utils/serialize.js */
-/*> ../utils-jq/jq-serialize.js */
+/*> ../m1ke-utils/serialize.js */
+/*> ../m1ke-utils-jq/jq-serialize.js */
 /*> ../uploadify/uploadify-3.1.js */
 
 var fileUploader={
