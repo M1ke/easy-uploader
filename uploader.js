@@ -23,7 +23,7 @@ $.fn.fileUploader=function(fileUploaderHandle){
 			.find('input[name="image"]').attr('id','upload-'+key).uploadify({
 				auto:true
 				,buttonText:'Select '+$(this).children('fieldset').data('files')
-				,cancelImg:l.url+'themes/images/cancel.png'
+				,cancelImg:app.url+'themes/images/cancel.png'
 				,fileObjName:'image'
 				,formData:(fileUploader.formData($(this)))
 				,onUploadStart:function(file){
