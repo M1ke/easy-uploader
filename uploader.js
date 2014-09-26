@@ -25,15 +25,10 @@ $.fn.fileUploader=function(fileUploaderHandle){
 				,buttonText:'Select '+$(this).children('fieldset').data('files')
 				,cancelImg:app.url+'themes/images/cancel.png'
 				,fileObjName:'image'
-				,formData:(fileUploader.formData($(this)))
+				,formData:fileUploader.formData($(this))
 				,onUploadStart:function(file){
-					var $form=$(this.wrapper).closest('.uploader'),data;
-					if ($form.is('form')){
-						data=$form.serializeObject();
-					}
-					else {
-						data=$form.data();
-					}
+					var $form=$(this.wrapper).closest('.uploader')
+						,data=$form.is('form') ? $form.serializeObject() : $form.data();
 					data.uploadKey=$form.data('uploadKey');
 					this.wrapper.uploadify('settings','formData',$.extend(this.wrapper.uploadify('settings','formData'),data));
 				}
