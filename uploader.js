@@ -1,7 +1,7 @@
-/*> ../adobe-flash/flash.js */
-/*> ../m1ke-utils/serialize.js */
-/*> ../m1ke-utils-jq/jq-serialize.js */
-/*> ../uploadify/uploadify-3.1.js */
+/*@include ../adobe-flash/flash.js */
+/*@include ../m1ke-utils/serialize.js */
+/*@include ../m1ke-utils-jq/jq-serialize.js */
+/*@include ../uploadify/uploadify-3.1.js */
 
 var fileUploader={
 	formData:function($form){
@@ -44,7 +44,7 @@ $.fn.fileUploader=function(fileUploaderHandle){
 					}
 				}
 				,queueID:'upload-queue-'+key
-				,swf:l.path+'js/assets/uploadify-3.1.swf'
+				,swf:app.url+'js/assets/uploadify-3.1.swf'
 				,uploader:$(this).is('form') ? $(this).attr('action') : $(this).data('url')
 			});
 			console.log($(this).is('form') ? $(this).attr('action') : $(this).data('url'));
