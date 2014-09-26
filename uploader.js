@@ -44,7 +44,7 @@ $.fn.fileUploader=function(fileUploaderHandle){
 					}
 				}
 				,queueID:'upload-queue-'+key
-				,swf:l.path+'scripts/jquery/uploadify-3.1.swf'
+				,swf:l.path+'js/assets/uploadify-3.1.swf'
 				,uploader:$(this).is('form') ? $(this).attr('action') : $(this).data('url')
 			});
 			console.log($(this).is('form') ? $(this).attr('action') : $(this).data('url'));
