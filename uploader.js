@@ -16,7 +16,7 @@ var fileUploader={
 $.fn.fileUploader=function(fileUploaderHandle){
 	return this.each(function(){
 		if (detectFlashVer(8,0,0)){
-			var key=$('.uploadify').length;
+			var key=$(this).find('.uploadify').length;
 			$(this)
 			.find('[type="submit"]').hide().end()
 			.find('.queue').attr('id','upload-queue-'+key).end()
