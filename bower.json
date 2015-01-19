@@ -12,7 +12,7 @@
     ],
     "dependencies": {
         "jquery": "git@github.com:m1ke/jquery-bower.git",
-        "uploadify": "git@github.com:m1ke/uploadify.git",
+        "uploadify": "git@github.com:m1ke/uploadify.git#x1.0",
         "js-utils": "git@github.com:m1ke/js-utils.git",
         "js-utils-jq": "git@github.com:m1ke/js-utils-jq.git",
         "flash-detector": "git@github.com:m1ke/flash-detector.git"
