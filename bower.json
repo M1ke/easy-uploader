@@ -15,7 +15,7 @@
         "uploadify": "git@github.com:m1ke/uploadify.git",
         "js-utils": "git@github.com:m1ke/js-utils.git",
         "js-utils-jq": "git@github.com:m1ke/js-utils-jq.git",
-        "adobe-flash": "git@github.com:m1ke/adobe-flash.git"
+        "flash-detector": "git@github.com:m1ke/flash-detector.git"
     },
     "description": "Uses the flash Uploadify tool along with jQuery to turn a single upload button into a dynamic upload queue with callbacks",
     "files": [
