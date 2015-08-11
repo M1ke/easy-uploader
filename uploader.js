@@ -22,7 +22,7 @@ $.fn.fileUploader=function(fileUploaderHandle){
 			.find('.queue').attr('id','upload-queue-'+key).end()
 			.find('input[name="image"]').attr('id','upload-'+key).uploadify({
 				auto:true
-				,buttonText:'Select '+$(this).children('fieldset').data('files')
+				,buttonText:'Select '+$(this).find('fieldset').data('files')
 				,cancelImg:app.url+'themes/images/cancel.png'
 				,fileObjName:'image'
 				,formData:fileUploader.formData($(this))
@@ -41,6 +41,8 @@ $.fn.fileUploader=function(fileUploaderHandle){
 				,queueID:'upload-queue-'+key
 				,swf:app.url+'js/assets/uploadify-3.1.swf'
 				,uploader:$(this).is('form') ? $(this).attr('action') : $(this).data('url')
+				,height: $(this).find('fieldset').data('button-height') 
+				,width: $(this).find('fieldset').data('button-width')
 			});
 			console.log($(this).is('form') ? $(this).attr('action') : $(this).data('url'));
 			do {
