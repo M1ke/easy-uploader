@@ -13,8 +13,8 @@
     "dependencies": {
         "jquery": "https://github.com/m1ke/jquery-bower.git",
         "uploadify": "https://github.com/m1ke/uploadify.git#x1.0",
-        "js-utils": "https://github.com/m1ke/js-utils.git",
-        "js-utils-jq": "https://github.com/m1ke/js-utils-jq.git",
+        "js-utils": "https://github.com/m1ke/js-utils.git#x1.0",
+        "js-utils-jq": "https://github.com/m1ke/js-utils-jq.git#x1.0",
         "flash-detector": "https://github.com/m1ke/flash-detector.git"
     },
     "description": "Uses the flash Uploadify tool along with jQuery to turn a single upload button into a dynamic upload queue with callbacks",

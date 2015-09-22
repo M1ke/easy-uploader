@@ -1,5 +1,4 @@
 /*@include ../flash-detector/flash.js */
-/*@include ../js-utils/serialize.js */
 /*@include ../js-utils-jq/jq-serialize.js */
 /*@include ../uploadify/uploadify-3.1.js */
 
